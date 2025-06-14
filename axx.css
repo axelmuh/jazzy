@@ -1,0 +1,52 @@
+/* ========== Global Styles ========== */
+body {
+  background-color: #0D1117; /* Dark navy */
+  color: #F3F4F6; /* Soft white text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: #1E293B; /* Dark slate blue */
+  color: #E2E8F0; /* Soft gray text */
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #334155; /* Slightly lighter for hover */
+  transform: scale(1.03);
+  color: #FFFFFF;
+}
+
+
+/* ========== Video Styling ========== */
+video.card-img {
+  border-radius: 10px;
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+/* ========== Footer Quote Section ========== */
+.blockquote {
+  color: #F3F4F6;
+}
+
+.blockquote-footer {
+  color: #9CA3AF; /* Muted gray */
+}
+
+/* ========== Optional Aesthetic Tweaks ========== */
+a.btn {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive fix (optional) */
+@media (max-width: 768px) {
+  .btn {
+    margin-bottom: 10px;
+  }
+}
